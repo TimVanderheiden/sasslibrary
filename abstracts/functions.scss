@@ -1,0 +1,15 @@
+@use "sass:math";
+//incrementally scale a value down
+@function scaleDown($retVal, $modVal, $iterations: 1) {
+    @for $i from 1 through $iterations {
+        $retVal: calc($retVal / $modVal);
+    }
+    @return $retVal;
+}
+//incrementally scale a value up
+@function scaleUp($retVal, $modVal, $iterations: 1) {
+    @for $i from 1 through $iterations {
+        $retVal: calc($retVal * $modVal);
+    }
+    @return $retVal;
+}
