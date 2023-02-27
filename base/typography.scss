@@ -1,0 +1,15 @@
+@import "../abstracts/variables.scss";
+body {
+    font-family: $font-family;
+    font-size: $text-md;
+
+    color: $font-color;
+}
+
+h1, h2, h3, h4, form legend {
+    margin-bottom: $margin-xs;
+
+    line-height: $heading-line-height;
+
+    color: $font-color-accent;
+}
