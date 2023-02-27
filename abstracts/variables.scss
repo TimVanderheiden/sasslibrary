@@ -1,0 +1,49 @@
+@import "functions.scss";
+///LAYOUT
+//margin & padding defaults
+$spacing-base: 1rem;
+$spacing-scale: 1.2;
+
+//margin & padding scales
+$margin-xs: scaleDown($spacing-base, $spacing-scale, 2);
+$margin-sm: scaleDown($spacing-base, $spacing-scale);
+$margin-md: $spacing-base;
+$margin-lg: scaleUp($spacing-base, $spacing-scale);
+$margin-xl: scaleUp($spacing-base, $spacing-scale, 2);
+$margin-xxl: scaleUp($spacing-base, $spacing-scale, 3);
+$padding-xs: calc($margin-xs / 2);
+$padding-sm: calc($margin-xs / 2);
+$padding-md: calc($margin-md / 2);
+$padding-lg: calc($margin-lg / 2);
+$padding-xl: calc($margin-xl / 2);
+$padding-xxl: calc($margin-xxl / 2);
+
+
+///TEXT
+//font defaults
+$font-family: sans-serif;
+$font-family-accent: serif;
+
+//font size defaults
+$text-base: 1em;
+$text-scale: 1.3;
+
+//font scales
+$text-xs: scaleDown($text-base, $text-scale, 2);
+$text-sm: scaleDown($text-base, $text-scale);
+$text-md: $text-base;
+$text-lg: scaleUp($text-base, $text-scale);
+$text-xl: scaleUp($text-base, $text-scale, 2);
+$text-xxl: scaleUp($text-base, $text-scale, 3);
+
+//line heights
+$line-height-heading: 1.2;
+$line-height-sub-heading: 1.4;
+$line-height-body: 1.6;
+
+
+///APPEARANCE
+//colors
+$font-color: #fff;
+$font-color-accent: #eeffbb;
+
