@@ -1,0 +1,19 @@
+header, header nav, nav section {
+    width: 100%;
+}
+
+header, header nav, nav section, nav ul {
+    display: inline-flex;
+}
+
+header nav {
+    font-size: larger;
+}
+
+header nav, nav section, nav ul {
+    align-self: center;
+}
+
+nav section {
+    justify-content: space-between;
+}
