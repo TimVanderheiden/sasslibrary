@@ -1,0 +1,14 @@
+@import "../abstracts/variables.scss";
+header, footer {
+    background-color: lighten($background, 5%);
+    border-width: 1px;
+    border-color: $border;
+}
+
+header {
+    border-bottom-style: solid;
+}
+
+footer {
+    border-top-style: solid;
+}
